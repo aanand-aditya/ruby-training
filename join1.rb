@@ -16,6 +16,7 @@ class Arrayjoin
      j;
   end
   puts "enter the elements of first array"
+  s1=gets;
   str1 = s1.split(' ');
   len1 = str1.length;
   a1 = Array.new(len1);
