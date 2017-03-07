@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative 'pyramid'
+require './pyramid'
 class TestStarPyramid < Test::Unit::TestCase
 PYRAMID_SAMLE_PATTERN ="    *
    ***
