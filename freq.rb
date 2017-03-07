@@ -14,11 +14,6 @@ class Frequency
   end 
   puts "enter the elements of array"
   s = gets;
-  str = s.split(' ');
-  len = str.length;
-  arr = Array.new(len);
-  for i in 0..len-1
-    arr[i]=str[i].to_i;
-  end
+  arr = s.split(' ').map(&:to_i)
 puts Frequency.new.arr_freq(arr);
 end
